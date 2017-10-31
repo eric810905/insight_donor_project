@@ -4,10 +4,10 @@ This is my solution for the coding challenge from https://github.com/InsightData
 # Approach
 The technical components and the approaches:
 1. read file: process the input file line by line
-2. data aggregation: use two dictionaries to store the data aggregated by the zip code and the date
+2. data aggregation: use two dictionaries to store the statistical information of the data aggregated by either the zip code or the date
 3. write to medianvals_by_zip.txt: write to file when reading each line of the input file
 4. write to medianvals_by_date.txt: write to file after finished reading the whole input file
-5. calculate median: use a min heap and a max heap to store all the elements and keep the median at the top of the heaps
+5. calculate median: use a min heap and a max heap to store a set of values and keep the median values at the top of the heaps
 
 # Discussion
 Assume the number of transactions is N
