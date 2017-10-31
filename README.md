@@ -38,3 +38,5 @@ test_date_format: test the case that the format of the date is invalid. Such tra
 test_zipcode_format: test the case that the format of the zip code is invalid. Such transaction should not be calculated for medianvals_by_zip.txt
 
 test_invalid_amount: test the case that the amount of the transaction is invalid. Such transaction should be discarded.
+
+test_invalid_cmte_id: test the case that the cmte_id of the transaction is empty. Such transaction should be discarded.
