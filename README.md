@@ -20,11 +20,11 @@ All packages used are python built-in packages
 # Run Instructions
 To run the script:
 
-    InsightPoEnTsai~$ ./run_tests.sh
+    insight_donor_project~$ ./run_tests.sh
 
 or run the following with the specific file paths:
 
-    InsightPoEnTsai~$ python ./src/donors_analysis.py {path of the input file} {path of the output file aggregated by zipcode} {path of the output file aggregated by date}
+    insight_donor_project~$ python ./src/donors_analysis.py {path of the input file} {path of the output file aggregated by zipcode} {path of the output file aggregated by date}
 
 To run the tests:
 
