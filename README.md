@@ -16,7 +16,7 @@ Space complexity is O(N) to store the data of each transaction.
 
 Time complexity is O(NlogN) in total. Reading the transactions takes O(N), and maintaining the heaps structure takes O(logN).
 
-If the range of the amount of the donation is within a small range of integer number, it is possible to use counting sort to maintain the statisitcal information of the data instead of using heaps. Using counting sort can reach constant time complexity for tracking the median value. This will lead to O(N) time complexity in total.
+If the range of the amount of the donation is within a small range of integer number, it is possible to use counting sort (not implemented in this solution) to maintain the statisitcal information of the data instead of using heaps. Using counting sort can reach constant time complexity for tracking the median value. This will lead to O(N) time complexity in total.
 
 # Dependencies
 All packages used are python built-in packages
