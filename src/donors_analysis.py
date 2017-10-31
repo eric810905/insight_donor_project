@@ -9,12 +9,12 @@ email: pt369@cornell.edu
 """
 
 """
-This script read a input txt file and output two txt files. This script should be
+This script reads a input txt file and output two txt files. This script should be
 executed along with a path of input file and two paths of output files.
 """
 
 """
-The following methods define the valid values of each feilds.
+The following five methods define the valid values of each feilds from the input file.
 The feilds are CMTE_ID, ZIP_CODE, TRANSACTION_DT, TRANSACTION_AMT, and OTHER_ID
 """
 def zipcode_valid(zipcode):
@@ -40,8 +40,8 @@ def transaction_amt_valid(amt):
 
 class median_container( object ):
     """
-    A container to tracking the median, sum, and number of transactions given a 
-    stream of transaction amount (integer). Median is tracked using a min heap and
+    A container to track the median, sum, and number of transactions given a stream 
+    of transaction amount (integer). Median is tracked using a min heap and
     a max heap.
     """
     def __init__(self):
